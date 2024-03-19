@@ -1,0 +1,15 @@
+.alert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  top: 100px;
+  z-index: 9;
+}

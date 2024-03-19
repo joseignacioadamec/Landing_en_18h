@@ -1,0 +1,47 @@
+.custom-row-info {
+  padding: 80px;
+  background-color: #303536;
+  color: #e7e5e4;
+}
+
+.h2-description {
+  font-family: "Tinos", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+}
+
+.principal-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+}
+
+.container-text-description {
+  padding-left: 40px;
+}
+
+.text-desciption {
+  font-family: "DM Sans", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .container-text {
+    margin-bottom: 12px;
+  }
+
+  .h2-description {
+    font-size: 46px;
+  }
+
+  .principal-text {
+    font-size: 24px;
+  }
+
+  .container-text-description {
+    padding-left: 0px;
+  }
+
+  .text-desciption {
+    font-size: 14px;
+  }
+}

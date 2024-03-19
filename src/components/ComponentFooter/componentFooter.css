@@ -1,0 +1,132 @@
+.generic-div-footer {
+  background-color: #303536;
+}
+
+.custom-row-footer {
+  padding-right: 6px !important;
+  padding-left: 6px !important;
+  padding-top: 89px !important;
+  color: #edefee;
+}
+
+.custom-col-footer {
+  display: flex;
+}
+
+.custom-col-left {
+  justify-content: flex-end !important;
+  margin-right: 180px;
+}
+
+.custom-col-right {
+  margin-left: 180px;
+}
+
+.custom-container-footer {
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.custom-title-footer {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.custom-email-footer {
+  margin-top: 20px;
+}
+
+.custom-row-images-rrss {
+  padding-top: 111.24px;
+}
+
+.custom-generic-div-images {
+  display: flex;
+  justify-content: center;
+}
+
+.images-rrss-footer {
+  width: 24px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.custom-row-reserved-footer {
+  font-family: "DM Sans", sans-serif;
+  padding: 36.26px 6px 18.5px 6px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.custom-container-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-padding-text {
+  padding-left: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-container-left,
+  .custom-container-right {
+    display: flex;
+    justify-content: center !important;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .custom-container-right {
+    margin-top: 12px;
+  }
+
+  .custom-col-left {
+    justify-content: flex-end;
+    margin-right: 100px;
+  }
+
+  .custom-col-right {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .custom-col-left {
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+
+  .custom-col-right {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .custom-col-left {
+    justify-content: center !important;
+    margin-right: 0;
+    margin-bottom: 42px;
+  }
+  .custom-col-right {
+    justify-content: center !important;
+    margin-left: 0;
+    margin-bottom: 42px;
+  }
+
+  .custom-row-images-rrss {
+    padding-top: 50px;
+  }
+
+  .custom-container-left,
+  .custom-container-right {
+    flex-wrap: wrap;
+  }
+}
