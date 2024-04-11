@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="container-branding">
           <div className="logo-colillas">
             <img
-              src={`${logoColillas}`}
+              src={`.${logoColillas}`}
               alt="Imagen Logo Colillas"
               className="logo-colillas-image"
             />
