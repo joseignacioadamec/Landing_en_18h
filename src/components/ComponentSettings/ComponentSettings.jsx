@@ -12,7 +12,7 @@ export const ComponentSettings = () => {
       <Col lg={3} md={6} sm={12} className="m-0 p-0 custom-col-settings">
         <div className="custom-div-settings">
           <div className="image-settings">
-            <img src={settings} alt="" />
+            <img src={`.${settings}`} alt="Imagen Icono ajustes" />
           </div>
           <p className="title-setting">Pauline</p>
           <p className="text-description-settings">
@@ -24,7 +24,7 @@ export const ComponentSettings = () => {
       <Col lg={3} md={6} sm={12} className="m-0 p-0 custom-col-settings">
         <div className="custom-div-settings">
           <div className="image-settings">
-            <img src={award} alt="" />
+            <img src={`.${award}`} alt="Imagen icono premio" />
           </div>
           <p className="title-setting">Bailee</p>
           <p className="text-description-settings">
@@ -37,7 +37,7 @@ export const ComponentSettings = () => {
       <Col lg={3} md={6} sm={12} className="m-0 p-0 custom-col-settings">
         <div className="custom-div-settings">
           <div className="image-settings">
-            <img src={rocket} alt="" />
+            <img src={`.${rocket}`} alt="imagen icono cohete" />
           </div>
           <p className="title-setting">Henry</p>
           <p className="text-description-settings">
@@ -50,7 +50,7 @@ export const ComponentSettings = () => {
       <Col lg={3} md={6} sm={12} className="m-0 p-0 custom-col-settings">
         <div className="custom-div-settings">
           <div className="image-settings">
-            <img src={penTool} alt="" />
+            <img src={`.${penTool}`} alt="Imagen icono punta de pluma" />
           </div>
           <p className="title-setting">Laurence</p>
           <p className="text-description-settings">

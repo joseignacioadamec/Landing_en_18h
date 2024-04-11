@@ -70,27 +70,27 @@ export const ComponentOptions = () => {
       <Row className="custom-row-images-options m-0">
         <Col xs={12} sm={6} md={4} lg={3} xl={2} className="p-0">
           <div className="custom-div-image-options custom-image-1">
-            <img src={CompanyLogo} alt="Icono de capas" />
+            <img src={`.${CompanyLogo}`} alt="Icono de capas" />
           </div>
         </Col>
         <Col xs={12} sm={6} md={4} lg={3} xl={2} className="p-0">
           <div className="custom-div-image-options custom-image-2">
-            <img src={CompanyLogo1} alt="Icono de opciones" />
+            <img src={`.${CompanyLogo1}`} alt="Icono de opciones" />
           </div>
         </Col>
         <Col xs={12} sm={6} md={4} lg={3} xl={2} className="p-0">
           <div className="custom-div-image-options custom-image-3">
-            <img src={CompanyLogo2} alt="Icono de opciones" />
+            <img src={`.${CompanyLogo2}`} alt="Icono de opciones" />
           </div>
         </Col>
         <Col xs={12} sm={6} md={4} lg={3} xl={2} className="p-0">
           <div className="custom-div-image-options custom-image-4">
-            <img src={CompanyLogo3} alt="Icono de catálogo" />
+            <img src={`.${CompanyLogo3}`} alt="Icono de catálogo" />
           </div>
         </Col>
         <Col xs={12} sm={12} md={4} lg={12} xl={2} className="p-0">
           <div className="custom-div-image-options custom-image-5">
-            <img src={CompanyLogo4} alt="Icono de opciones" />
+            <img src={`.${CompanyLogo4}`} alt="Icono de opciones" />
           </div>
         </Col>
       </Row>
