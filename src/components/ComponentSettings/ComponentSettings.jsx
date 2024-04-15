@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import settings from "../../assets/images/settings.svg";
-import rocket from "../../assets/images/rocket.svg";
-import penTool from "../../assets/images/penTool.svg";
-import award from "../../assets/images/award.svg";
+import rocket from "/rocket.svg";
+import penTool from "/penTool.svg";
+import award from "/award.svg";
+import settings from "/settings.svg";
 import "./componentSettings.css";
 
 export const ComponentSettings = () => {
