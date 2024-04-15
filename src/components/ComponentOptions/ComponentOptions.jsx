@@ -27,21 +27,21 @@ export const ComponentOptions = () => {
               </div>
               <div className="images-stars-options">
                 <img
-                   src={`.${star}`}
+                  src={`.${star}`}
                   alt="Estrellas de valoración"
                   className="stars options"
                 />
               </div>
               <div className="images-stars-options">
                 <img
-                   src={`.${star}`}
+                  src={`.${star}`}
                   alt="Estrellas de valoración"
                   className="stars options"
                 />
               </div>
               <div className="images-stars-options">
                 <img
-                  src={star}
+                  src={`.${star}`}
                   alt="Estrellas de valoración"
                   className="stars options"
                 />

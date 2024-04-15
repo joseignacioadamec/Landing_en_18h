@@ -39,7 +39,7 @@ export const Header = () => {
                 eius ipsa quaerat.
               </p>
               <div className="image-arrow">
-                <img src={arrow} alt="Imagen flecha derecha" />
+                <img src={`.${arrow}`} alt="Imagen flecha derecha" />
               </div>
             </div>
           </div>
