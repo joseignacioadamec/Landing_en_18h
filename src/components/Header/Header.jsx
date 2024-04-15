@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import logoColillas from "/logoColillas.svg";
-import arrow from "/arrow.svg";
+import logoColillas from "../../assets/images/logoColillas.svg";
+import arrow from "../../assets/images/arrow.svg";
 import "./header.css";
 
 export const Header = () => {
@@ -30,7 +30,7 @@ export const Header = () => {
                 Officiis, numquam quia.
               </p>
               <div className="image-arrow">
-                <img src={arrow} alt="Imagen flecha derecha" />
+                <img src={`.${arrow}`} alt="Imagen flecha derecha" />
               </div>
             </div>
             <div className="custom-text custom-border">

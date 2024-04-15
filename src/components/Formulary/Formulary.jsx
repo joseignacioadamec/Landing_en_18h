@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { AlertComponent } from "../AlertComponent/AlertComponent";
-import arrow from "/arrow.svg";
+import arrow from "../../assets/images/arrow.svg";
 import "./formulary.css";
 import "../AlertComponent/alertComponent.css";
 
@@ -162,7 +162,7 @@ export default function Formulary() {
             >
               Enviar
               <img
-                src={arrow}
+                src={`.${arrow}`}
                 alt="Imagen flecha hacia la derecha"
                 className="image-button-form"
               />

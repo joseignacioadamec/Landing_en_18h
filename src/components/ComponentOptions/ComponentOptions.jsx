@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import star from "../../assets/images/star.svg";
-import CompanyLogo from "/CompanyLogo.svg";
-import CompanyLogo1 from "/CompanyLogo1.svg";
-import CompanyLogo2 from "/CompanyLogo2.svg";
-import CompanyLogo3 from "/CompanyLogo3.svg";
-import CompanyLogo4 from "/CompanyLogo4.svg";
+import CompanyLogo from "../../assets/images/CompanyLogo.svg";
+import CompanyLogo1 from "../../assets/images/CompanyLogo1.svg";
+import CompanyLogo2 from "../../assets/images/CompanyLogo2.svg";
+import CompanyLogo3 from "../../assets/images/CompanyLogo3.svg";
+import CompanyLogo4 from "../../assets/images/CompanyLogo4.svg";
 import "./componentOptions.css";
 
 export const ComponentOptions = () => {
@@ -20,7 +20,21 @@ export const ComponentOptions = () => {
             <div className="custom-div-stars">
               <div className="images-stars-options">
                 <img
-                  src={star}
+                  src={`.${star}`}
+                  alt="Estrellas de valoración"
+                  className="stars options"
+                />
+              </div>
+              <div className="images-stars-options">
+                <img
+                   src={`.${star}`}
+                  alt="Estrellas de valoración"
+                  className="stars options"
+                />
+              </div>
+              <div className="images-stars-options">
+                <img
+                   src={`.${star}`}
                   alt="Estrellas de valoración"
                   className="stars options"
                 />
@@ -34,21 +48,7 @@ export const ComponentOptions = () => {
               </div>
               <div className="images-stars-options">
                 <img
-                  src={star}
-                  alt="Estrellas de valoración"
-                  className="stars options"
-                />
-              </div>
-              <div className="images-stars-options">
-                <img
-                  src={star}
-                  alt="Estrellas de valoración"
-                  className="stars options"
-                />
-              </div>
-              <div className="images-stars-options">
-                <img
-                  src={star}
+                  src={`.${star}`}
                   alt="Estrellas de valoración"
                   className="stars options"
                 />

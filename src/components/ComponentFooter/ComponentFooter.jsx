@@ -1,11 +1,11 @@
 import React from "react";
 import "./componentFooter.css";
 import { Col, Row } from "react-bootstrap";
-import facebook from "/Facebook.svg";
-import iconX from "/X.svg";
-import linkedIn from "/LinkedIn.svg";
-import instagram from "/Instagram.svg";
-import youTube from "/Youtube.svg";
+import facebook from "../../assets/images/Facebook.svg";
+import iconX from "../../assets/images/X.svg";
+import linkedIn from "../../assets/images/LinkedIn.svg";
+import instagram from "../../assets/images/Instagram.svg";
+import youTube from "../../assets/images/Youtube.svg";
 
 export const ComponentFooter = () => {
   return (
@@ -39,28 +39,28 @@ export const ComponentFooter = () => {
           <Col>
             <div className="custom-generic-div-images">
               <div className="images-rrss-footer">
-                <img src={facebook} alt="" className="image-rrss-footer" />
+                <img src={`.${facebook}`} alt="" className="image-rrss-footer" />
               </div>
               <div className="images-rrss-footer">
-                <img src={iconX} alt="" className="image-rrss-footer" />
+                <img src={`.${iconX}`} alt="" className="image-rrss-footer" />
               </div>
               <div className="images-rrss-footer">
                 <img
-                  src={linkedIn}
+                  src={`.${linkedIn}`}
                   alt="Icono de Linkedin"
                   className="image-rrss-footer"
                 />
               </div>
               <div className="images-rrss-footer">
                 <img
-                  src={instagram}
+                  src={`.${instagram}`}
                   alt="Icono de Instagram"
                   className="image-rrss-footer"
                 />
               </div>
               <div className="images-rrss-footer">
                 <img
-                  src={youTube}
+                  src={`.${youTube}`}
                   alt="Icono de Instagram"
                   className="image-rrss-footer"
                 />
