@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import logoColillas from "../../assets/images/logoColillas.svg";
-import arrow from "../../assets/images/arrow.svg";
+import logoColillas from "/logoColillas.svg";
+import arrow from "/arrow.svg";
 import "./header.css";
 
 export const Header = () => {

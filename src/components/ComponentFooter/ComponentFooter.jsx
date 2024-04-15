@@ -1,11 +1,11 @@
 import React from "react";
 import "./componentFooter.css";
 import { Col, Row } from "react-bootstrap";
-import facebook from "../../assets/images/Facebook.svg";
-import iconX from "../../assets/images/X.svg";
-import linkedIn from "../../assets/images/LinkedIn.svg";
-import instagram from "../../assets/images/Instagram.svg";
-import youTube from "../../assets/images/Youtube.svg";
+import facebook from "/Facebook.svg";
+import iconX from "/X.svg";
+import linkedIn from "/LinkedIn.svg";
+import instagram from "/Instagram.svg";
+import youTube from "/Youtube.svg";
 
 export const ComponentFooter = () => {
   return (
