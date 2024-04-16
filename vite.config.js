@@ -5,10 +5,10 @@ export default defineConfig({
   plugins: [react()],
   build: {
     assetsInlineLimit: 0,
-    rollupOptions: {
-      output: {
-        assetFileNames: "assets/[name].[ext]",
-      },
-    },
+    // rollupOptions: {
+    //   output: {
+    //     assetFileNames: "assets/[name].[ext]",
+    //   },
+    // },
   },
 });

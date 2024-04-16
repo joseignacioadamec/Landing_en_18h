@@ -8,7 +8,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/src/assets/images/leone-venter.jpg");
+    /* ASI PARA VER EN PRO*/
+  background-image: url("./assets/leone-venter.jpg");
+
+  /* ASI PARA VER EN LOCAL*/
+  /* background-image: url("/src/assets/images/leone-venter.jpg"); */
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
